@@ -277,8 +277,7 @@ header{
     list-style: none;
 }
 
-.solusi-list li::before {
-    content: "✓";
+.solusi-list i {
     margin-right: 9px;
     color: #2aad70;
     font-weight: 800;
@@ -359,6 +358,8 @@ header{
     box-shadow: 0 10px 24px rgba(18, 55, 42, 0.12);
 }
 
-
+.value-item {
+    
+}
 
 

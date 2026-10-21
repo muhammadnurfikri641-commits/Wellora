@@ -1,0 +1,364 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8fcf9;
+    color: #1f2933;
+    line-height: 1.6;
+}
+
+header{
+    width: 90%;
+    max-width: 1100px ;
+    background-color: white;
+    border-radius: 40px;
+    box-shadow: 0 4px 20px rgba(18, 55, 42, 0.06);
+    margin: 10px auto 30px auto;;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 32px;
+    align-items: center;
+}
+
+.nav-logo {
+    font-size: 22px;
+    font-weight: 800;
+    color: #12372a;
+    text-decoration: none;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+    gap: 28px;
+}
+
+.nav-item {
+    color: #1f2933;
+    font-weight: 600;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.nav-item:hover, .nav-item.active {
+    color: #2aad70;
+    transition: color 0.2s ease;
+
+}
+
+.btn-unduh {
+    background-color: #2aad70;
+    padding: 10px 22px;
+    border-radius: 25px;
+    color: white ;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 4px 12px rgba(46, 173, 112, 0.25);
+    
+}
+
+.btn-unduh:hover {
+    background-color: #248c5a;
+    transform: translateY(-2px);
+    transition: transform 0.2s ease;
+}
+
+.hero {
+    display: flex;
+    width: 90% ;
+    max-width: 1100px ;
+    margin: auto;
+    padding: 36px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    padding-top: 30px;
+    padding-bottom: 60px;
+    
+}
+
+
+
+.gambar {
+    width: 100%;
+    max-width: 480px;
+    height: auto;
+}
+
+.ambatubadge {
+    background-color: #e7f7ee;
+    color: #2ead70;
+    border-radius: 20px;
+    padding: 8px 16px;
+    font-weight: 700;
+    border: 1px solid #cbefdb;
+     
+}
+
+.ambatujudul {
+    font-weight: 800;
+    color: #12372a;
+    font-size: 48px;
+    line-height: 1.15;
+    margin-bottom: 20px;
+    
+}
+
+.ambatudesc {
+    font-size: 16px;
+    color: #52606d;
+    line-height: 1.65;
+    margin-bottom: 30px;
+}
+
+.ambatucon {
+    background-color: #2aad70;
+    padding: 10px 22px;
+    border-radius: 25px;
+    color: white ;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+    align-items: center;
+    box-shadow: 0 4px 12px rgba(46, 173, 112, 0.25);
+    gap: 15px;
+    margin: 10px;
+    display: inline-flex;
+    transition: background-color 0.2s ease;
+}
+
+.ambatucon:hover {
+    background-color: #248c5a;
+    transform: translateY(-3px);
+    box-shadow: 0 7px 16px rgba(46, 173, 112, 0.3);
+}
+
+.ambatuphone {
+    background-color: white ;
+    padding: 10px 22px;
+    border-radius: 25px;
+    color: #2aad70 ;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+    align-items: center;
+    box-shadow: 0 4px 12px rgba(46, 173, 112, 0.25);
+    border: 1px solid #2aad70;
+    gap: 15px;
+    display: inline-flex;
+    transition: background-color 0.2s ease;
+}
+
+.ambatuphone:hover {
+    background-color: #cbefdb;
+    transform: translateY(-3px);
+    box-shadow: 0 7px 16px rgba(46, 173, 112, 0.2);
+}
+
+.ambatubutton {
+    height: 60px;
+    
+}
+
+.ambafitur{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 20px;
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto 60px;
+}
+
+.card {
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 25%;
+  min-height: 190px;
+  padding: 20px 16px;
+  background-color: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 16px;
+  box-shadow: 0 5px 18px rgba(18, 55, 42, 0.07);
+  gap: 16px;
+  color: #12372a;
+  text-align: center;
+  transition: transform 0.2s ease;
+}
+
+.card:hover{
+    background-color: #ffffff;
+    transform: translateY(-4px);
+    box-shadow: 0 10px 24px rgba(18, 55, 42, 0.12);
+}
+
+.card h2 {
+    font-size: 16px;
+    line-height: 1.35;
+}
+
+.card p {
+    color: #687780;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.card-icon {
+    display: grid;
+    place-items: center;
+    width: 44px;
+    height: 44px;
+    border: 1px solid #d9f2e3;
+    border-radius: 12px;
+    color: #2aad70;
+    font-size: 20px;
+    background-color: #eaf7ef;
+}
+
+.solusi {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 48px;
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto 70px;
+    padding: 42px 0;
+}
+
+.solusi-copy {
+    width: 48%;
+}
+
+.solusi-badge {
+    display: inline-block;
+    margin-bottom: 12px;
+    padding: 5px 12px;
+    border-radius: 20px;
+    background: #e7f7ee;
+    color: #2aad70;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.solusi-copy h2 {
+    max-width: 480px;
+    margin-bottom: 12px;
+    color: #12372a;
+    font-size: 32px;
+    line-height: 1.2;
+}
+
+.solusi-desc {
+    margin-bottom: 18px;
+    color: #52606d;
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+.solusi-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 24px;
+    padding: 0;
+    color: #294b3c;
+    font-size: 13px;
+    list-style: none;
+}
+
+.solusi-list li::before {
+    content: "✓";
+    margin-right: 9px;
+    color: #2aad70;
+    font-weight: 800;
+}
+
+.solusi-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 18px;
+    border-radius: 24px;
+    background: #2aad70;
+    box-shadow: 0 4px 12px rgba(46, 173, 112, 0.25);
+    color: #fff;
+    font-size: 13px;
+    font-weight: 700;
+    text-decoration: none;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.solusi-button:hover {
+    transform: translateY(-2px);
+    background: #248c5a;
+}
+
+.amba-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 14px;
+    width: 48%;
+}
+
+.amba-card {
+    display: flex;
+    min-height: 150px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 6px;
+    padding: 20px;
+    border: 1px solid #e8efeb;
+    border-radius: 16px;
+    background: #fff;
+    box-shadow: 0 5px 18px rgba(18, 55, 42, 0.06);
+    width: 48%;
+    color: #7a8982;
+    font-size: 12px;
+    transition: transform 0.2s ease;
+}
+
+.amba-card i {
+    color: #2aad70;
+    font-size: 20px;
+}
+
+.amba-card strong {
+    color: #12372a;
+    font-size: 22px;
+    line-height: 1.25;
+}
+
+.amba-card strong small {
+    color: #83918a;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.amba-card strong + span {
+    color: #2aad70;
+    font-size: 11px;
+    font-weight: 600;
+}
+
+.amba-card:hover {
+    background-color: #ffffff;
+    transform: translateY(-4px);
+    box-shadow: 0 10px 24px rgba(18, 55, 42, 0.12);
+}
+
+
+
+

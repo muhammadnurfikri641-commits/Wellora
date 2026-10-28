@@ -19,10 +19,10 @@
         <!--Menu-->
         <nav class="nav-menu">
             <a href="#" class="nav-item active">Beranda</a>
-            <a href="#" class="nav-item">Fitur</a>
-            <a href="#" class="nav-item">Tentang Kami</a>
+            <a href="#ambatur" class="nav-item">Fitur</a>
+            <a href="#ambabout" class="nav-item">Tentang Kami</a>
             <a href="#" class="nav-item">Artikel</a>
-            <a href="#" class="nav-item">Kontak</a>
+            <a href="#hubungiamba" class="nav-item">Kontak</a>
         </nav>
         <!--Tombol-->
         <div class="nav-button">
@@ -54,8 +54,8 @@ lebih nyenyak, dan hidup seimbang setiap hari.</p>
             <img src="Assets\mobile.png" alt="Logo HP Iphone 28jt cash ga nyicil beli di jepang" class="gambar">
         </div>
     </section>
-
-    <section class="ambafitur">
+     <!--Fitur-->
+    <section class="ambafitur" id="ambatur">
         <div class="card">
             <span class="card-icon"><i class="fa-solid fa-person-running" aria-hidden="true"></i></span>
             <h2>Program Terpersonalisasi</h2>
@@ -77,7 +77,7 @@ lebih nyenyak, dan hidup seimbang setiap hari.</p>
             <p>Lihat capaian kesehatan setiap hari dan tetap termotivasi setiap saat.</p>
         </div>
     </section>
-
+     <!--Solusi-->
     <section class="solusi">
         <div class="solusi-copy">
             <span class="solusi-badge">Semua yang Anda Butuhkan</span>
@@ -118,8 +118,8 @@ lebih nyenyak, dan hidup seimbang setiap hari.</p>
             </article>
         </div>
     </section>
-
-    <section class="about">
+     <!--About-->
+    <section class="about" id="ambabout">
         <div class="about-kiri">
             <span class="about-badge">
                 <i class="fa-solid fa-leaf" aria-hidden="true"></i> Tentang Kami
@@ -178,7 +178,7 @@ lebih nyenyak, dan hidup seimbang setiap hari.</p>
         </div>
     </section>
 
-    <section class="hubungi-kami" id="hubungi-kami">
+    <section class="hubungi-kami" id="hubungiamba">
         <div class="contact-heading">
             <span class="contact-badge"><i class="fa-solid fa-headset" aria-hidden="true"></i> Hubungi Kami</span>
             <h2>Ada Pertanyaan? Kami Siap Membantu</h2>
@@ -224,5 +224,28 @@ lebih nyenyak, dan hidup seimbang setiap hari.</p>
         </nav>
         <div class="footer-copyright">© 2026 Wellora. Seluruh hak cipta dilindungi. Dibuat untuk pembelajaran CSS Flexbox Siswa Kelas X RPL.</div>
     </footer>
+
+    <button class="btn-amba-naik" id="btn-amba-top" onclick="keatashalaman()">
+        <i class="fa-solid fa-arrow-up-long"></i>
+    </button>
+
+    <script>
+        window.addEventListener('scroll', function() {
+            const btnTop = document.getElementById
+            ('btn-amba-top');
+            if (window.scrollY > 300){
+                btnTop.style.display = 'flex';
+            } else {
+                btnTop.style.display = 'none'
+            }
+        });
+
+        function keatashalaman(){
+            window.scrollTo({
+                top : 0
+            })
+        }
+    </script>
+
 </body>
 </html>

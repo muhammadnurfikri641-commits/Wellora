@@ -4,6 +4,14 @@
     padding: 0;
 }
 
+:root{
+    --hijau-ireng : #12372a;
+    --warna-button : #2ead70;
+    --warna-desc : #52606d;
+    --size-text-desc : 16px;
+    --size-judul : 48px;
+}
+
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #f8fcf9;
@@ -27,7 +35,7 @@ header{
 .nav-logo {
     font-size: 22px;
     font-weight: 800;
-    color: #12372a;
+    color: var(--hijau-ireng);
     text-decoration: none;
 }
 
@@ -45,13 +53,13 @@ header{
 }
 
 .nav-item:hover, .nav-item.active {
-    color: #2aad70;
+    color: var(--warna-button);
     transition: color 0.2s ease;
 
 }
 
 .btn-unduh {
-    background-color: #2aad70;
+    background-color: var(--warna-button);
     padding: 10px 22px;
     border-radius: 25px;
     color: white ;
@@ -94,7 +102,7 @@ header{
 
 .ambatubadge {
     background-color: #e7f7ee;
-    color: #2ead70;
+    color: var(--warna-button);
     border-radius: 20px;
     padding: 8px 16px;
     font-weight: 700;
@@ -104,22 +112,22 @@ header{
 
 .ambatujudul {
     font-weight: 800;
-    color: #12372a;
-    font-size: 48px;
+    color: var(--hijau-ireng);
+    font-size: var(--size-judul);
     line-height: 1.15;
     margin-bottom: 20px;
     
 }
 
 .ambatudesc {
-    font-size: 16px;
-    color: #52606d;
+    font-size: var(--size-text-desc);
+    color: var(--warna-desc);
     line-height: 1.65;
     margin-bottom: 30px;
 }
 
 .ambatucon {
-    background-color: #2aad70;
+    background-color: var(--warna-button);
     padding: 10px 22px;
     border-radius: 25px;
     color: white ;
@@ -144,13 +152,13 @@ header{
     background-color: white ;
     padding: 10px 22px;
     border-radius: 25px;
-    color: #2aad70 ;
+    color: var(--warna-button) ;
     text-decoration: none;
     font-weight: 700;
     font-size: 14px;
     align-items: center;
     box-shadow: 0 4px 12px rgba(46, 173, 112, 0.25);
-    border: 1px solid #2aad70;
+    border: 1px solid var(--warna-button);
     gap: 15px;
     display: inline-flex;
     transition: background-color 0.2s ease;
@@ -191,7 +199,7 @@ header{
   border-radius: 16px;
   box-shadow: 0 5px 18px rgba(18, 55, 42, 0.07);
   gap: 16px;
-  color: #12372a;
+  color: var(--hijau-ireng);
   text-align: center;
   transition: transform 0.2s ease;
 }
@@ -220,7 +228,7 @@ header{
     height: 44px;
     border: 1px solid #d9f2e3;
     border-radius: 12px;
-    color: #2aad70;
+    color: var(--warna-button);
     font-size: 20px;
     background-color: #eaf7ef;
 }
@@ -246,7 +254,7 @@ header{
     padding: 5px 12px;
     border-radius: 20px;
     background: #e7f7ee;
-    color: #2aad70;
+    color: var(--warna-button);
     font-size: 12px;
     font-weight: 700;
 }
@@ -254,14 +262,14 @@ header{
 .solusi-copy h2 {
     max-width: 480px;
     margin-bottom: 12px;
-    color: #12372a;
+    color: var(--hijau-ireng);
     font-size: 32px;
     line-height: 1.2;
 }
 
 .solusi-desc {
     margin-bottom: 18px;
-    color: #52606d;
+    color: var(--warna-desc);
     font-size: 14px;
     line-height: 1.7;
 }
@@ -279,7 +287,7 @@ header{
 
 .solusi-list i {
     margin-right: 9px;
-    color: #2aad70;
+    color: var(--warna-button);
     font-weight: 800;
 }
 
@@ -289,7 +297,7 @@ header{
     gap: 10px;
     padding: 10px 18px;
     border-radius: 24px;
-    background: #2aad70;
+    background: var(--warna-button);
     box-shadow: 0 4px 12px rgba(46, 173, 112, 0.25);
     color: #fff;
     font-size: 13px;
@@ -330,12 +338,12 @@ header{
 }
 
 .amba-card i {
-    color: #2aad70;
+    color: var(--warna-button);
     font-size: 20px;
 }
 
 .amba-card strong {
-    color: #12372a;
+    color: var(--hijau-ireng);
     font-size: 22px;
     line-height: 1.25;
 }
@@ -347,7 +355,7 @@ header{
 }
 
 .amba-card strong + span {
-    color: #2aad70;
+    color: var(--warna-button);
     font-size: 11px;
     font-weight: 600;
 }
@@ -383,14 +391,14 @@ header{
     align-items: center;
     gap: 6px;
     margin-bottom: 8px;
-    color: #2aad70;
+    color: var(--warna-button);
     font-size: 12px;
     font-weight: 700;
 }
 
 .about-title {
     margin-bottom: 16px;
-    color: #12372a;
+    color: var(--hijau-ireng);
     font-size: 36px;
     font-weight: 800;
     line-height: 1.25;
@@ -398,7 +406,7 @@ header{
 
 .about-desc {
     margin-bottom: 25px;
-    color: #52606d;
+    color: var(--warna-desc);
     font-size: 15px;
     line-height: 1.6;
 }
@@ -428,7 +436,7 @@ header{
     justify-content: center;
     border-radius: 12px;
     background: #e7f7ee;
-    color: #2aad70;
+    color: var(--warna-button);
     font-size: 18px;
 }
 
@@ -438,14 +446,14 @@ header{
 
 .value-title {
     margin-bottom: 4px;
-    color: #12372a;
+    color: var(--hijau-ireng);
     font-size: 15px;
     font-weight: 700;
 }
 
 .value-desc {
     padding-bottom: 0;
-    color: #52606d;
+    color: var(--warna-desc);
     font-size: 13px;
     line-height: 1.5;
 }
@@ -458,7 +466,7 @@ header{
 .box-about-kanan {
     padding: 28px;
     border-radius: 24px;
-    background: #12372a;
+    background: var(--hijau-ireng);
     box-shadow: 0 10px 25px rgba(18, 55, 42, 0.15);
     color: #ffffff;
 }
@@ -536,7 +544,7 @@ header{
 
 .contact-heading h2 {
     margin-bottom: 10px;
-    color: #12372a;
+    color: var(--hijau-ireng);
     font-size: 32px;
     font-weight: 800;
     line-height: 1.2;
@@ -581,7 +589,7 @@ header{
     place-items: center;
     border-radius: 12px;
     background: #e7f7ee;
-    color: #2aad70;
+    color: var(--warna-button);
 }
 
 .contact-card div {
@@ -596,7 +604,7 @@ header{
 }
 
 .contact-card strong {
-    color: #12372a;
+    color: var(--hijau-ireng);
     font-size: 12px;
     line-height: 1.45;
 }
@@ -614,7 +622,7 @@ header{
 
 .contact-form h3 {
     margin-bottom: -10px;
-    color: #12372a;
+    color: var(--hijau-ireng);
     font-size: 18px;
 }
 
@@ -627,7 +635,7 @@ header{
     display: flex;
     flex-direction: column;
     gap: 6px;
-    color: #12372a;
+    color: var(--hijau-ireng);
     font-size: 11px;
     font-weight: 700;
 }
@@ -662,7 +670,7 @@ header{
     gap: 8px;
     border: 0;
     border-radius: 24px;
-    background: #2aad70;
+    background: var(--warna-button);
     box-shadow: 0 2px 12px rgba(46, 173, 112, 0.25);
     color: #ffffff;
     font-size: 12px;
@@ -677,7 +685,7 @@ header{
 
 .site-footer {
     padding: 42px 5% 18px;
-    background: #12372a;
+    background: var(--hijau-ireng);
     color: #ffffff;
     text-align: center;
 }
@@ -732,3 +740,35 @@ header{
     font-size: 10px;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
+section {
+    scroll-margin-top: 45px;
+}
+
+.btn-amba-naik{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    height: 48px;
+    width: 48px;
+    background-color: var(--warna-button);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    cursor: pointer;
+    box-shadow: 0 6px 18px rgba(46, 173, 112, 0.2);
+    z-index: 999;
+    transition: all 0.2s ease;
+    display: none;
+}
+
+.btn-amba-naik:hover{
+    background-color: var(--hijau-ireng);
+    transform: translateY(-5px);
+}

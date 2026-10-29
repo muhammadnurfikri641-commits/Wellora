@@ -22,7 +22,7 @@
             <a href="#" class="nav-item active">Beranda</a>
             <a href="#ambatur" class="nav-item">Fitur</a>
             <a href="#ambabout" class="nav-item">Tentang Kami</a>
-            <a href="#" class="nav-item">Artikel</a>
+            <a href="#artikel" class="nav-item">Artikel</a>
             <a href="#hubungiamba" class="nav-item">Kontak</a>
         </nav>
         <!--Tombol-->
@@ -179,9 +179,49 @@ lebih nyenyak, dan hidup seimbang setiap hari.</p>
         </div>
     </section>
 
+    <section class="artikel" id="artikel">
+        <div class="artikel-header">
+            <span class="artikel-badge"><i class="fa-solid fa-book-open" aria-hidden="true"></i> Edukasi &amp; Inspirasi</span>
+            <h2>Artikel &amp; Tips Gaya Hidup Sehat Terkini</h2>
+            <p>Perluas wawasan Anda seputar nutrisi, tips olahraga praktis, dan manajemen stres untuk menjaga vitalitas tubuh sepanjang hari.</p>
+        </div>
+
+        <div class="article-grid">
+            <article class="article-card">
+                <img class="article-img" src="Assets/sayur.jpeg" alt="Beragam sayuran dan bahan makanan sehat">
+                <div class="artikel-konten">
+                    <div class="article-meta"><span class="artikel-tag">Nutrisi</span><span class="article-reading">5 mnt baca</span></div>
+                    <h3 class="artikel-title">5 Langkah Memulai Pola Makan Sehat Tanpa Diet Menyiksa</h3>
+                    <p class="article-snippet">Pelajari cara menyeimbangkan porsi karbohidrat, protein, dan serat harian secara bertahap tanpa perlu rasa lapar berlebihan.</p>
+                    <a class="article-link" href="detail-berita.html?id=0">Baca Selengkapnya <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+                </div>
+            </article>
+
+            <article class="article-card">
+                <img class="article-img" src="Assets/jalan kaki.jpeg" alt="Seseorang berjalan menaiki tangga">
+                <div class="artikel-konten">
+                    <div class="article-meta"><span class="artikel-tag">Kebugaran</span><span class="article-reading">4 mnt baca</span></div>
+                    <h3 class="artikel-title">Berapa Langkah Kaki yang Sebenarnya Dibutuhkan Tubuh?</h3>
+                    <p class="article-snippet">Kupas tuntas mitos 10.000 langkah dan fakta ilmiah tentang kebutuhan gerak harian untuk menjaga kesehatan jantung dan stamina.</p>
+                    <a class="article-link" href="detail-berita.html?id=1">Baca Selengkapnya <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+                </div>
+            </article>
+
+            <article class="article-card">
+                <img class="article-img" src="Assets/kucing.jpeg" alt="Kucing tidur nyaman di tempat tidur">
+                <div class="artikel-konten">
+                    <div class="article-meta"><span class="artikel-tag">Pola Tidur</span><span class="article-reading">6 mnt baca</span></div>
+                    <h3 class="artikel-title">Rahasia Tidur Nyenyak Demi Produktivitas Maksimal</h3>
+                    <p class="article-snippet">Kualitas tidur menentukan metabolisme tubuh. Terapkan 4 kebiasaan malam ini untuk bangun dengan energi penuh keesokan hari.</p>
+                    <a class="article-link" href="detail-berita.html?id=2">Baca Selengkapnya <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+                </div>
+            </article>
+        </div>
+    </section>
+
     <section class="hubungi-kami" id="hubungiamba">
         <div class="contact-heading">
-            <span class="contact-badge"><i class="fa-solid fa-headset" aria-hidden="true"></i> Hubungi Kami</span>
+            <span class="contact-badge"><i class="fa-solid fa-headset"></i> Hubungi Kami</span>
             <h2>Ada Pertanyaan? Kami Siap Membantu</h2>
             <p>Punya pertanyaan seputar aplikasi Wellora, kemitraan, atau ingin berkonsultasi? Kirimkan pesan Anda kepada tim kami.</p>
         </div>
@@ -189,27 +229,34 @@ lebih nyenyak, dan hidup seimbang setiap hari.</p>
         <div class="contact-content">
             <div class="contact-list">
                 <div class="contact-card">
-                    <span class="contact-icon"><i class="fa-solid fa-envelope" aria-hidden="true"></i></span>
+                    <span class="contact-icon"><i class="fa-solid fa-envelope"></i></span>
                     <div><span class="contact-label">Email Resmi</span><strong>support@wellora.id</strong></div>
                 </div>
                 <div class="contact-card">
-                    <span class="contact-icon"><i class="fa-solid fa-phone" aria-hidden="true"></i></span>
+                    <span class="contact-icon"><i class="fa-solid fa-phone"></i></span>
                     <div><span class="contact-label">Telepon / WhatsApp</span><strong>+62 123-999-6767</strong></div>
                 </div>
                 <div class="contact-card">
-                    <span class="contact-icon"><i class="fa-solid fa-location-dot" aria-hidden="true"></i></span>
+                    <span class="contact-icon"><i class="fa-solid fa-location-dot"></i></span>
                     <div><span class="contact-label">Alamat Kantor</span><strong>Gedung Wellora Health Center, Rongawi Selatan, Negara Bagian Rongawi</strong></div>
                 </div>
                 <div class="contact-card">
-                    <span class="contact-icon"><i class="fa-solid fa-clock" aria-hidden="true"></i></span>
+                    <span class="contact-icon"><i class="fa-solid fa-clock"></i></span>
                     <div><span class="contact-label">Jam Layanan</span><strong>Senin - Jumat, 08.00 - 19.00 WIB</strong></div>
                 </div>
             </div>
 
-            <div class="contact-form">
+            <form class="contact-form">
                 <h3>Kirim Pesan Langsung</h3>
                 <p>Isi formulir berikut dan tim kami akan membalas dalam 1x24 jam kerja.</p>
-            </div>
+                <div class="form-row">
+                    <label>Nama Lengkap<input type="text" name="nama" placeholder="Masukkan nama Anda"></label>
+                    <label>Alamat Email<input type="email" name="email" placeholder="nama@email.com"></label>
+                </div>
+                <label>Subjek Pesan<input type="text" name="subjek" placeholder="Contoh: Pertanyaan seputar fitur"></label>
+                <label>Pesan Anda<textarea name="pesan" rows="4" placeholder="Tuliskan pesan atau pertanyaan Anda di sini..."></textarea></label>
+                <button type="button">Kirim Pesan Sekarang <i class="fa-solid fa-paper-plane"></i></button>
+            </form>
         </div>
     </section>
     <footer class="site-footer">
